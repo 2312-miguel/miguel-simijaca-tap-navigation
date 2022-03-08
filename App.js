@@ -1,10 +1,10 @@
 import { LogBox } from 'react-native';
-import ShopNavigator from './navigation/ShopNavigator';
+import MainNavigator from './navigation';
 
 export default function App() {
   LogBox.ignoreAllLogs();
 
   return (
-    < ShopNavigator />
+    <MainNavigator />
   );
 }
